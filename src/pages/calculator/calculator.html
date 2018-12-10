@@ -6,14 +6,14 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>calculator</ion-title>
+  <ion-navbar color="light">
+    <ion-title color="light">BMI Calculator</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content>
+<ion-content color="dark">
     <ion-list>
         <ion-item>
           <ion-label floating>Weight (kg)</ion-label>
@@ -27,7 +27,7 @@
       </ion-list>
       
       <div padding>
-        <button block ion-button (click)="calculateBMI()">Calculate</button>
+        <button color="dark" block ion-button (click)="calculateBMI()">Calculate</button>
       </div>
 
   <ion-card *ngIf="bmiValue">

@@ -1,3 +1,11 @@
 page-calculator {
-
+    h2 {
+        color: map-get($colors, secondary )
+    }
+    h2 {
+        color: map-get($colors, primary )
+    }
+    h2 {
+        color: map-get($colors, dark )
+    }
 }
