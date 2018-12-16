@@ -86,3 +86,11 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+my-component {
+  background: color($colors, secondary, base);
+}
+
+$background: (
+  color: red
+)
